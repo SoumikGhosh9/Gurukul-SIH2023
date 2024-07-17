@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!---Coding By CodingLab | www.codinglabweb.com--->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Registration</title>
+    <!---Custom CSS File--->
+    <link rel="stylesheet" href="styl.css" />
+</head>
+
+<body>
+    <section class="container">
+        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+            <img class="object-cover object-center rounded" alt="hero" src="gurukul-img.png">
+        </div>
+        <header>Register</header>
+        <form action="#" class="form">
+            <div class="input-box">
+                <label>Full Name</label>
+                <input type="text" placeholder="Enter full name" required />
+            </div>
+
+            <div class="input-box">
+                <label>Email Address</label>
+                <input type="text" placeholder="Enter email address" required />
+            </div>
+
+            <div class="column">
+                <div class="input-box">
+                    <label>Phone Number</label>
+                    <input type="number" placeholder="Enter phone number" required />
+                </div>
+                <div class="input-box">
+                    <label>Birth Date</label>
+                    <input type="date" placeholder="Enter birth date" required />
+                </div>
+            </div>
+            <div class="gender-box">
+                <h3>Gender</h3>
+                <div class="gender-option">
+                    <div class="gender">
+                        <input type="radio" id="check-male" name="gender" checked />
+                        <label for="check-male">male</label>
+                    </div>
+                    <div class="gender">
+                        <input type="radio" id="check-female" name="gender" />
+                        <label for="check-female">Female</label>
+                    </div>
+                    <div class="gender">
+                        <div class="inputbox">
+                            <input type="text" placeholder="Let me type..." />
+                        </div>
+                    </div>
+                    <div class="gender">
+                        <input type="radio" id="check-other" name="gender" />
+                        <label for="check-other">prefer not to say</label>
+                    </div>
+                </div>
+            </div>
+            <div class="input-box address">
+                <label>Education</label>
+                <input type="text" placeholder="Enter your area of interest" required />
+                <input type="text" placeholder="Enter which class you read in" required />
+                <div class="column">
+                    <div class="select-box">
+                        <select>
+                            <option hidden>Language</option>
+                            <option>Bengali</option>
+                            <option>English</option>
+                            <option>Hindi</option>
+                            <!-- <option>Odia</option>
+                            <option>Telugu</option>
+                            <option>Tamil</option>
+                            <option>Marathi</option> -->
+                        </select>
+                    </div>
+                    <input type="text" placeholder="Enter your city" required />
+                </div>
+                <div class="column">
+                    <div class="input-box">
+                        <label>Parent Details</label>
+                        <input type="text" placeholder="Enter parent name" required />
+                    </div>
+                    <div class="input-box">
+                        <br>
+                        <input type="number" placeholder="Enter parent phone number" required />
+                    </div>
+                </div>
+
+                <!-- <div class="column">
+                    <div class="input-box address"></div>
+                    <label>Parent Details</label>
+                    <input type="text" placeholder="Enter your region" required />
+                </div>
+                <div class="input-box address"></div>
+                <input type="number" placeholder="Enter postal code" required /> -->
+            </div>
+
+            <button>Submit</button>
+        </form>
+    </section>
+</body>
+
+</html>
